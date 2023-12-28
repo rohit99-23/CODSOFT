@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int a,b;
+	char o;
+	
+	cout<<"simple calculator by Rohit kumar"<<endl;
+	cout<<"enter two number"<<endl;
+	cin>>a>>b;
+	cout<<"enter an operator(+,-,*,/)"<<endl;
+	cin>>o;
+	switch(o){
+		case '+': cout<<"Result is:"<<a+b<<endl;
+							break;
+							
+		case '-': cout<<"Result is:"<<a-b<<endl;
+							break;
+							
+		case '*': cout<<"Result is:"<<a*b<<endl;
+							break;
+				
+		case '/': cout<<"Result is:"<<a/b<<endl;
+							break;
+	  default:
+	  	cout<<"enter valid operator(+,-,*,/)"<<endl;
+			break;
+  }
+		return 0;
+}
