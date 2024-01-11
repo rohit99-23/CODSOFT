@@ -142,7 +142,7 @@ using namespace std;
 	 board();
 	 if(i==1)
 	 {
-	 	cout<< "\a CONGRATULATIONS PLAYER!"<<--player<<"WIN!"<<endl;
+	 	cout<< "\a CONGRATULATIONS PLAYER "<<--player<<": "<<"WIN!"<<endl;
 	 }
 	 else
 	 {
